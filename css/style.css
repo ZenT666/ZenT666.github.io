@@ -1,0 +1,217 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/background.png);
+}
+@font-face {
+	font-family: "Decade";
+	src: url(../fonts/Decade.ttf);
+}
+#wrap {
+	max-width: 964px;
+	margin: auto;
+}
+header {
+	width: 100%;
+	height: 90px;
+}
+h1 {
+	font-family:"Decade";
+	font-size: 38px;
+	color: rgb(199, 255, 102);
+	text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.45);
+	line-height: 0.474;
+	display: inline-block;
+}
+.services, .title {
+  font-size: 16px;
+  font-family: "Decade";
+  text-transform: uppercase;
+  line-height: 1.125;
+  list-style: none;
+  float: right;
+}
+.services li {
+	display: inline-block;
+	padding-left: 17px;
+	padding-right: 14px;
+	border: 1px dotted #5a5a5a;
+	background: url(../img/menubackground.png);
+}
+.services a, .title a {
+	text-decoration: none;
+	color: #dcdcdc;
+}
+.services a {
+	line-height:37px;
+}
+.title a {
+	line-height: 12px;
+}
+.title .active, .services .active {
+	color: rgb(199, 255, 102);
+}
+#baner {
+	width: 964px;
+  	height: 306px;
+  	background: url(../img/menubackground.png);	
+  	border: 1px dotted #5a5a5a;
+  	margin: 60px auto;
+}
+#ourwork {
+		margin-top: 20px;
+         } 
+h2 {
+	font-size: 32px;
+  	font-family: "Decade";
+  	color: rgb(199, 255, 102);
+  	text-transform: uppercase;
+  	line-height: 0.563;
+  	display: inline-block;
+}
+.title li {
+	display: inline-block;
+	font-size: 12px;
+	height: 12px;
+	border-left: 1px solid #5a5a5a;
+	padding-left: 5px;
+	padding-right: 5px; 
+}
+.title li:first-child {
+	border: none;
+}
+#work, #technolodgy, #team, #contact {
+	width: 964px;
+	margin: auto;
+	border-top: 1px dotted #5a5a5a;
+}
+
+.desing {
+	width: 220px;
+	height: 172px;
+	background: url(../img/work.png);
+	float: left;
+	display: inline-block;
+	margin: 10px 10px;
+}
+.ipsum {
+  font-size: 12px;
+  font-family: "Tahoma";
+  color: rgb(220, 220, 220);
+  text-align: center;
+  margin: 6px 0px;
+}
+
+.holder {
+	width: 208px;
+	height: 137px;
+	background: #ccc;
+	margin: 6px 6px 0px 6px;
+}
+.no-active-page {
+  background-color: rgb(143, 143, 143);
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+}
+
+.active-page {
+  background-color: rgb(199, 255, 102);
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+}
+#pages {
+	width: 55px;
+	margin: auto;
+}
+.left-text {
+	text-align: left;
+}
+
+
+.about {
+	width: 230px;
+	height: 380px;
+	display: inline-block;
+	float: left;
+	margin: 10px 5px;
+}
+.about>p:first-child {
+	text-transform: uppercase;
+}
+.desing-holder {
+	width: 220px;
+	height: 149px;
+	background: url(../img/services.png);
+	margin: 10px;
+}
+.desing-holder > div {
+	background: #ccc;
+	width: 208px;
+	height: 137px;
+	margin: 6px;
+}
+.read-more {
+  font-size: 12px;
+  font-family: "Tahoma";
+  color: rgb(199, 255, 102);
+  text-decoration: underline;
+}
+#services .read-more::after {
+	content: url(../img/right.png);
+	color: rgb(199, 255, 102);
+	margin-left: 5px;
+}
+.about img {
+	margin: 0px 5px;
+}
+
+#map {
+	height: 252px;
+	width: 450px;
+	margin: 20px auto;
+}
+#images-footer {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+footer {
+	padding-top: 20px;
+	position: relative;
+}
+
+
+@media(min-width: 768px) and (max-width: 992px){
+	
+	#work, #technolodgy, #team, #contact {
+	width: 768px; 
+}
+
+#baner {
+	width: 768px;
+  	height: 306px;
+}
+
+}
+@media(min-width: 400px) and (max-width: 768px){
+   #work, #technolodgy, #team, #contact {
+	width: 600px; 
+
+
+#baner {
+	width: 400px;
+  	height: 306px;
+}
+
+
+}
+
+
+
+
+
+
+
+
